@@ -57,6 +57,38 @@
 
     <h2 id="proyectos">Proyectos realizandos</h2>
 
+    <div class="proyectos">
+
+      <h3>EmaStore</h3>
+      <img 
+      src="/img/emacvh.PNG" alt="pagina emastore">
+      <a href="https://emastore.netlify.app/"
+      target="_blank"
+      rel="noreferrer">
+        <button>Ver pagina</button>
+      </a>
+
+
+      <h3>Gojostore</h3>
+      <img 
+      src="/img/emacvh.PNG" alt="pagina emastore">
+      <a href="https://emastore.netlify.app/"
+      target="_blank"
+      rel="noreferrer">
+        <button>Ver pagina</button>
+      </a>
+
+      <h3>Citas con react</h3>
+      <img 
+      src="/img/emacvh.PNG" alt="pagina emastore">
+      <a href="https://emastore.netlify.app/"
+      target="_blank"
+      rel="noreferrer">
+        <button>Ver pagina</button>
+      </a>
+
+    </div>
+
     <aside>
       <header>
         <h3>Mis Tecnologias Favoritas</h3>
@@ -81,6 +113,76 @@
           <small>Tecnologias utilizadas: HTML, CSS, Javascript</small>
         </footer>
       </article>   
+    </section>
+
+    <section>
+      <h2>Preguntas Frecuentes</h2>
+
+      <details open>
+        <summary>Que estudios tienes?</summary>
+        <p>Estudie en el Instituto Tecnológico de las Américas (ITLA) un Tecnologo en redes durante 2 años, y estoy ahora mismo cursando la carrera Full stack desde el 2023</p>
+      </details>
+
+      <details>
+        <summary>Cual es tu lenguaje favorito?</summary>
+        <p>Me encanta Javascript, es un lenguaje muy versatil y con el que se puede hacer muchas cosas interesantes en las paginas web.</p>
+      </details>
+
+      <details>
+        <summary>Cuanto tiempo dura el desarrollo de una pagina web?</summary>
+        <p>Todo depende de la complejidad y las funciones que se requieran para dicha pagina web.</p>
+      </details>
+    </section>
+
+
+    <section>
+
+      <h2>Formulario de contacto</h2>
+
+      <form method="post" action="/" id="contacto">
+        <fieldset>
+          <legend>Informacion personal</legend>
+        <div>
+          <label>Nombre:
+            <input type="text" id="name" name="name"
+            placeholder="Escribe tu nombre" required>
+          </label>
+        </div>
+
+        <label>Email:
+          <input type="email" id="email" name="email"
+          placeholder="Escribe tu Email" required>
+        </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Informacion Adicional</legend>
+          <div>
+            <label>Telefono:
+              <input type="tel" name="tel" placeholder="Escribe tu numero" required pattern="[0-9] {9}">
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Otros</legend>
+
+          <div>
+            <label for="why">Por que quieres contactar?</label>
+            <select name="why" id="why">
+              <option value="1">Trabajo</option>
+              <option value="2">Duda</option>
+              <option value="3">Informacion</option>
+          </div>
+
+          <div>
+            <label for="terms">Aceptas los terminos?</label>
+            <input type="checkbox" id="terms" name="terms" required>
+          </div>
+        </fieldset>
+        <button>Enviar contacto</button>
+
+      </form>
     </section>
   </main>
   </body>
